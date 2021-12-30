@@ -1,0 +1,15 @@
+/* Reseteo de padding y margenes a cero */
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    
+}
+/* config para el logo peincipal */
+.img-thumbnail{
+    width: 80px;
+    left: 15px;
+    
+}
