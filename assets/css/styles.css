@@ -4,14 +4,14 @@
   margin: 0;
   box-sizing: border-box;
 }
-
-html{
+/* Habilitacion Smooth Control*/
+html {
   scroll-behavior: smooth;
 }
-body{
-    background: #000;
-    font-family: 'IBM Plex Sans', sans-serif;
-    
+/*Fuente de texto principal del sitio y BG negro*/
+body {
+  background: #000;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 /* tamaño logo principal */
 .img-logo {
@@ -19,14 +19,13 @@ body{
   left: 15px;
 }
 /* font logo */
-.logo-txt{
-  
+.logo-txt {
   font-size: 1.5rem;
   margin-left: 15rem;
 }
 /* config navbar  */
 .nav-config {
-  position:fixed;
+  position: fixed;
   width: 100%;
   z-index: 999;
   background: none;
@@ -38,21 +37,18 @@ body{
   top: 0;
   margin-left: 0;
 }
-.titulos{
+/*Configuracion de titulos de secciones*/
+.titulos {
   font-weight: 400;
   font-size: 30px;
   margin-top: 3rem;
- }
-
- .hr-new{
-   border: 1px solid cyan;
- }
- .card{
-   border: 0;
-   background-color: #000;
- }
- .card-img-top {
-  margin: auto;
-  
 }
-
+/*Lineas de division*/
+.hr-new {
+  border: 1px solid cyan;
+}
+/* Elimnacion de bordes y BG Negro*/
+.card {
+  border: 0;
+  background-color: #000;
+}
