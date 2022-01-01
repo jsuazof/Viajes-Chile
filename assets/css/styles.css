@@ -1,15 +1,58 @@
 /* Reseteo de padding y margenes a cero */
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+html{
+  scroll-behavior: smooth;
 }
 body{
+    background: #000;
+    font-family: 'IBM Plex Sans', sans-serif;
     
 }
-/* config para el logo peincipal */
-.img-thumbnail{
-    width: 80px;
-    left: 15px;
-    
+/* tamaño logo principal */
+.img-logo {
+  width: 30px;
+  left: 15px;
 }
+/* font logo */
+.logo-txt{
+  
+  font-size: 1.5rem;
+  margin-left: 15rem;
+}
+/* config navbar  */
+.nav-config {
+  position:fixed;
+  width: 100%;
+  z-index: 999;
+  background: none;
+  border: 0;
+  border-radius: 0;
+}
+/*carousel al tope */
+.car-top {
+  top: 0;
+  margin-left: 0;
+}
+.titulos{
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 3rem;
+ }
+
+ .hr-new{
+   border: 1px solid cyan;
+ }
+ .card{
+   border: 0;
+   background-color: #000;
+ }
+ .card-img-top {
+  margin: auto;
+  
+}
+
