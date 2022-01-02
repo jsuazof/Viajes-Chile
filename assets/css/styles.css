@@ -25,9 +25,9 @@ body {
   display: flex;
   justify-content:center;
 }
-/* icons footer logo */
+/* icons footer logos */
 .icons-txt {
-  
+  margin: auto;
 }
 /* config navbar  */
 .nav-config {
