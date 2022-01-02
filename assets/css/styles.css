@@ -18,10 +18,16 @@ body {
   width: 30px;
   left: 15px;
 }
-/* font logo */
+/* font footer logo */
 .logo-txt {
+  font-weight: 700;
   font-size: 1.5rem;
-  margin-left: 15rem;
+  display: flex;
+  justify-content:center;
+}
+/* icons footer logo */
+.icons-txt {
+  
 }
 /* config navbar  */
 .nav-config {
@@ -52,14 +58,10 @@ body {
   border: 0;
   background-color: #000;
 }
-.foo-txt{
-  justify-content: center;
-  font-size: 1.5rem;
-  margin-top: 0.9375rem;
-  margin-left: 12.5rem;
-}
-/*Ajusta las imagenes al mismo tamaño*/
+
+/*Ajusta las imagenes de las cards de bootstrap al mismo tamaño*/
 .card-img-top {
   height: 15vw;
+  width: 100%;
   object-fit: cover;
 }
