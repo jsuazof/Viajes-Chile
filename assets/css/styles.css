@@ -47,8 +47,19 @@ body {
 .hr-new {
   border: 1px solid cyan;
 }
-/* Elimnacion de bordes y BG Negro*/
+/* Elimnacion de bordes y color BG Negro*/
 .card {
   border: 0;
   background-color: #000;
+}
+.foo-txt{
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-top: 0.9375rem;
+  margin-left: 12.5rem;
+}
+/*Ajusta las imagenes al mismo tamaño*/
+.card-img-top {
+  height: 15vw;
+  object-fit: cover;
 }
