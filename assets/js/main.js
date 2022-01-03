@@ -6,9 +6,24 @@ $(function () {   //Esta es la función general de jquery
         $('.card-text2').toggle();
     });
 
-    Tooltips aplicado en la seccion Quienes Somos
-    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    //Tooltips aplicado en la seccion Quienes Somos
+    let tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    let tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
         return new bootstrap.Tooltip(tooltipTriggerEl)
     })
+
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            if (scroll > 800) {
+                $(".black").css("background", "");
+            }
+
+            else {
+                $(".black").css("background", "none");
+            }
+        })
+    })
+
+
 });
