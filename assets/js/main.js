@@ -11,7 +11,7 @@ $(function () {   //Esta es la función general de jquery
     let tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
         return new bootstrap.Tooltip(tooltipTriggerEl)
     })
-
+    //cambia el color de fondo del navbar
     $(document).ready(function () {
         $(window).scroll(function () {
             let scroll = $(window).scrollTop();
@@ -24,6 +24,4 @@ $(function () {   //Esta es la función general de jquery
             }
         })
     })
-
-
 });
