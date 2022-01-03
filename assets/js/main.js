@@ -16,11 +16,11 @@ $(function () {   //Esta es la función general de jquery
         $(window).scroll(function () {
             let scroll = $(window).scrollTop();
             if (scroll > 800) {
-                $(".black").css("background", "");
+                $(".navbar").css("background", "#000");
             }
 
             else {
-                $(".black").css("background", "none");
+                $(".navbar").css("background", "none");
             }
         })
     })

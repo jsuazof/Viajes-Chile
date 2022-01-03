@@ -65,10 +65,8 @@ body {
   width: 100%;
   object-fit: cover;
 }
-.black{
-  background:rgba(75, 74, 3, 0.521);
-  
-  height:50px;  
+.navbar{
+  transition: all 300ms ease-in-out;
 }
 
 
