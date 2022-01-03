@@ -6,7 +6,7 @@ $(function () {   //Esta es la función general de jquery
         $('.card-text2').toggle();
     });
 
-    //Tooltips aplicado en la seccion Quienes Somos
+    Tooltips aplicado en la seccion Quienes Somos
     var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
     var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
         return new bootstrap.Tooltip(tooltipTriggerEl)
